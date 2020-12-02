@@ -49,7 +49,6 @@ let num_valid_pw = 0
         println("Policy: $use_policy Not implemented, defaulting to policy 1")
         global use_policy = 1
         check_pw = check_pw_policy1
-        
     end
 
     for rule_pw in data_array
