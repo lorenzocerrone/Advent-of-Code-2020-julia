@@ -22,6 +22,7 @@ function walker_acc(data_array:: AbstractArray, x_step=1, y_step=3):: Int
     return numb_tree
 end
 
+
 data_array = load_data("./data/day3.txt")
 numb_tree = walker_acc(data_array)
 println("Numb of tree is: $numb_tree")
